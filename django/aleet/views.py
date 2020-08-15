@@ -10,3 +10,5 @@ def ping(request):
 def give_token(request):
 	csrf_token = get_token(request)
 	return JsonResponse({'csrf': csrf_token})
+
+	
